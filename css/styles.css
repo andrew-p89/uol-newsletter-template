@@ -1,0 +1,183 @@
+html {
+    background-color: #f9f9f9;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2em 10em;
+    border-width: .5px;
+}
+
+.header {
+    padding: .5em 1em;
+    background-color: #031F73;
+    text-align: center;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 1.8em;
+}
+
+.header-logo {
+    padding: 1em;
+}
+
+.header-logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header-image {
+    padding: 2em 1em 0 1em;
+    text-align: center;
+}
+
+.header-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+#introduction {
+    padding: 1em;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+}
+
+.content-grid a {
+    text-decoration: none;
+}
+
+.content-grid a:hover {
+    opacity: 90%;
+}
+
+.content-image {
+    padding: 1em;
+    margin: auto 0;
+}
+
+.content-image img{
+    max-width: 100%;
+    height: auto;
+}
+
+.content-text {
+    padding: .5em 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.content-text h2 {
+    background-color: #817bbb;
+    color: #FFF;
+    padding: .5em 1em;
+    font-size: 1.2em;
+    border-radius: .5em;
+    text-align: center;
+    margin-top: .4em;
+}
+
+.end-section {
+    padding: 1em;
+}
+
+.footer {
+    padding: .5em 1em;
+    background-color: #9cb8dd;
+    text-align: center;
+}
+
+.footer li {
+    list-style: none;
+    display: inline;
+    padding: 0 1em;
+    color: #031F73;
+    font-size: .8em;
+}
+
+.footer a:hover {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.button {
+    text-align: center;
+}
+
+button {
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 2em;
+    margin-top: 0;
+    padding: .8em;
+    border-radius: 4em;
+    background-color: #031F73;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+button:hover {
+    opacity: 80%;
+    cursor: grab;
+}
+
+@media (max-width: 600px) {
+
+    #introduction {
+        padding: .5em 2em;
+    }
+
+    .content-grid {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    body {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .header-logo {
+        padding: 1em;
+        text-align: center;
+    }
+
+    .button:hover {
+        cursor: grab;
+    }
+
+    .end-section {
+        padding: .5em 2em;
+    }
+
+    .footer {
+        padding: .5em 2em;
+    }
+
+    .footer ul {
+        padding: .1em 0;
+        text-align: center;
+    }
+
+    .footer li {
+        text-align: center;
+        display: block;
+        padding: .5em 0;
+    }
+
+    .footer a {
+        font-weight: bold
+    }
+
